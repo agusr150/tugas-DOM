@@ -1,0 +1,42 @@
+body {
+    color:gold; 
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("images.jpeg");
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+form {
+    background-color: yellow;
+    color: black;
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text]{
+    color: blue;
+}
+
+button{
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    
+}
+
+p{
+    text-align: justify;
+}

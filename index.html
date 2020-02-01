@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <link rel="stylesheet" type="text/css" href="style-ex3.css"/>
+    <script src="script-ex3.js"></script>
+    <title>tugas-DOM</title>
+</head>
+<body>
+    <h1>RAMALAN ANDA DI TAHUN 2020</h1>
+    <h2>Shio Tikus</h2>
+    <form >
+        Masukkan nama Anda
+        <input type = "text" id = "nama" ><br>
+        Masukkan tanggal lahir Anda
+        <input type = "date" id = "tanggal" ><br>
+        Pilih jenis ramalan yang Anda ingin ketahui: <br>
+        <input type="radio" name="pilihan" id="cinta" value="cinta">Cinta<br>
+        <input type="radio" name="pilihan" id="usaha" value="usaha">Usaha<br>
+        <input type="radio" name="pilihan" id="keuangan" value="keuangan">Keuangan<br>
+        <input type="radio" name="pilihan" id="kesehatan" value="kesehatan">Kesehatan<br>
+        <br>
+        <input type="button" onclick = "myRamalan()" value="Submit">  
+        <br>
+        <br>
+        <p id="ramalan"></p>
+    </form>
+
+</body>
+</html>
