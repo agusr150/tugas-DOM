@@ -201,6 +201,7 @@ function tionghoa(shio){
                 Kesehatan: "Akan ada masalah tersembunyi dengan perut dan sistem pencernaan. Disarankan untuk melakukan pemeriksaan kesehatan secara teratur, dan banyak2 lah menenangkan pikiran. sebaiknya hindari mengambil bagian dalam kegiatan air yang berbahaya!",
                 Link: "https://www.tionghoa.info/ramalan-shio-kambing-2020-cinta-usaha-keuangan-kesehatan-dan-fengshui/?utm_source=dable"
             }
+            break
         case "Monyet":
             result = {
                 Cinta: "Ramalan cinta shio monyet tahun 2020 memprediksi bahwa mereka yang bershio monyet cenderung merasa memiliki kontrol lebih besar (dominan) atas pasangan mereka pada tahun 2020. Tidak peduli apa pun status hubungan Anda di tahun ini, Anda harus mencoba meningkatkan keterampilan komunikasi. Jangan menjadi penekan juga. Menemukan zona menengah yang baik untuk ini, adalah cara yang bagus untuk mendapatkan yang terbaik dari interaksi sosial Anda dengan siapa pun: pasangan, teman, maupun anggota keluarga. Peluang memiliki bayi di tahun 2020 juga terbuka bagi pasangan baru.",
