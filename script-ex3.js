@@ -114,13 +114,16 @@ function myShio(myDate){
 
     for (var i=1; i<d.length; i++){
         if(tanggal.getTime() < d[i].getTime()){
-            console.log(i)
             nShio = i-shio.length*(Math.floor(i/shio.length))
             nElemen = i-elemen.length*(Math.floor(i/elemen.length))
+            if(nShio===0){
+                nShio = shio.length
+            }
             gShio = shio[nShio-1]
-            console.log(nShio)
+            if(nElemen ===0){
+                nElemen = elemen.length
+            }
             gElemen = elemen[nElemen-1]
-            console.log(nElemen)
             break
         }
     }
