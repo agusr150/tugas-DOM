@@ -127,6 +127,9 @@ function myShio(myDate){
             }
             gElemen = elemen[nElemen-1]
             
+
+           console.log('nShio anda: '+nShio +' dan nelemen anda: '+nElemen)
+            console.log('Shio anda: '+gShio +' dan elemen anda: '+gElemen)
             break
         }
     }
