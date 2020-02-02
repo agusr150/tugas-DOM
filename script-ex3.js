@@ -279,19 +279,19 @@ function myRamalan(){
         
         if(document.getElementById("cinta").checked){
             //alert(result["Cinta"])
-            document.getElementById('ramalan').innerHTML = "Hi "+nama+",dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  cinta adalah: <br>"+ result['Cinta']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
+            document.getElementById('ramalan').innerHTML = "Hi "+nama+", dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  cinta adalah: <br>"+ result['Cinta']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
         }
         else if(document.getElementById("usaha").checked){
             //alert(result["Usaha"])
-            document.getElementById('ramalan').innerHTML = "Hi "+nama+",dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  usaha adalah: <br>"+result['Usaha']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
+            document.getElementById('ramalan').innerHTML = "Hi "+nama+", dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  usaha adalah: <br>"+result['Usaha']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
         }
         else if(document.getElementById("keuangan").checked){
             //alert(result["Keuangan"])
-            document.getElementById('ramalan').innerHTML = "Hi "+nama+",dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  keuangan adalah: <br>"+result['Keuangan']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
+            document.getElementById('ramalan').innerHTML = "Hi "+nama+", dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  keuangan adalah: <br>"+result['Keuangan']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
         }
         else if(document.getElementById("kesehatan").checked){
             //alert(result["Kesehatan"])
-            document.getElementById('ramalan').innerHTML = "Hi "+nama+",dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  ramalan adalah: <br>"+result['Kesehatan']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
+            document.getElementById('ramalan').innerHTML = "Hi "+nama+", dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  kesehatan adalah: <br>"+result['Kesehatan']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
         }  
           
     }
