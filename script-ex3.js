@@ -114,16 +114,19 @@ function myShio(myDate){
 
     for (var i=1; i<d.length; i++){
         if(tanggal.getTime() < d[i].getTime()){
+            console.log(i)
             nShio = i-shio.length*(Math.floor(i/shio.length))
             nElemen = i-elemen.length*(Math.floor(i/elemen.length))
             if(nShio===0){
                 nShio = shio.length
             }
-            gShio = shio[nShio-1]
+             gShio = shio[nShio-1]
+            
             if(nElemen ===0){
                 nElemen = elemen.length
             }
             gElemen = elemen[nElemen-1]
+            
             break
         }
     }
@@ -268,7 +271,9 @@ function myRamalan(){
     else {
         myShio(tanggal)
         //alert('Shio anda: '+gShio +' dan elemen anda: '+gElemen)
+
         tionghoa(gShio)
+        
         if(document.getElementById("cinta").checked){
             //alert(result["Cinta"])
             document.getElementById('ramalan').innerHTML = "Hi "+nama+",dengan shio "+gShio+" dan elemen "+gElemen+" maka ramalan anda untuk  cinta adalah: <br>"+ result['Cinta']+"<br> Ramalan selengkapnya baca di: <a href='"+result["Link"]+"'>link</a>";
