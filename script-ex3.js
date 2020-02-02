@@ -55,7 +55,7 @@ function myShio(myDate){
     d54 = new Date ("Feb 18 1977")
     d55 = new Date ("Feb 07 1978")
     d56 = new Date ("Jan 28 1979")
-    d57 = new Date ("Feb 16 1980–")
+    d57 = new Date ("Feb 16 1980")
     d58 = new Date ("Feb 05 1981")
     d59 = new Date ("Jan 25 1982")
     d60 = new Date ("Feb 13 1983")
